@@ -7,3 +7,11 @@
 @mixin border($size: 1px, $type: solid, $color: $red) {
 	border: $size $type $color;
 }
+
+@mixin fontname($type) {
+	@if $type == bold {
+		font-family: name;
+	} @else {
+		 font-family: name;
+	}
+}
