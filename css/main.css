@@ -3374,12 +3374,12 @@ hr.divider {
     clear: both; }
 
 .inner {
-  height: 100px;
+  height: 50px;
   background-color: #eeeeee;
   border-radius: 5px;
   border: 1px solid #ccc;
-  line-height: 3.6em;
-  font-size: 25px;
+  line-height: 2.4em;
+  font-size: 19px;
   font-weight: bold;
   color: #666;
   text-align: center;
@@ -3457,7 +3457,7 @@ hr.divider {
   border-radius: 5px;
   border: 1px solid #ccc;
   line-height: 13.6em;
-  font-size: 25px;
+  font-size: 19px;
   font-weight: bold;
   color: #666;
   text-align: center;
@@ -3480,7 +3480,7 @@ hr.divider {
       border-radius: 5px;
       border: 1px solid #ccc;
       line-height: 9.7em;
-      font-size: 25px;
+      font-size: 19px;
       font-weight: bold;
       color: #666;
       text-align: center;
@@ -3509,7 +3509,7 @@ hr.divider {
   border-radius: 5px;
   border: 1px solid #ccc;
   line-height: 13.6em;
-  font-size: 25px;
+  font-size: 19px;
   font-weight: bold;
   color: #666;
   text-align: center;
@@ -3538,7 +3538,7 @@ hr.divider {
   border-radius: 5px;
   border: 1px solid #ccc;
   line-height: 13.6em;
-  font-size: 25px;
+  font-size: 19px;
   font-weight: bold;
   color: #666;
   text-align: center;

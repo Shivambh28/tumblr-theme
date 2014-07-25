@@ -16,13 +16,13 @@
 	}
 }
 
-@mixin testdiv($height : 100px, $color : #eee, $line-height: 3.6em) {
+@mixin testdiv($height : 50px, $color : #eee, $line-height: 2.4em) {
 	height: $height;
 	background-color: $color;
 	border-radius: 5px;
 	border:1px solid #ccc;
 	line-height:$line-height;
-	font-size:25px; 
+	font-size:19px; 
 	font-weight:bold;
 	color:#666;
 	text-align:center;
