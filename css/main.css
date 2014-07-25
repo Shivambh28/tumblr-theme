@@ -519,6 +519,9 @@ section.everythingcentered {
   border-top: 1px solid #0AB55F;
   margin-bottom: 8px; }
 
+.home {
+  width: 100%; }
+
 @media (max-width: 1024px) {
   .home .banner {
     height: auto;
