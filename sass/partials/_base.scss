@@ -12,7 +12,18 @@ header, nav, section, article, aside, footer {
    display:block;
 }
 .container {
-	
+	@include container-fixed();
+ 	
+ 	@media (min-width: $screen-sm-min) {
+		width: $container-sm;
+	}
+	@media (min-width: $screen-md-min) {
+		width: $container-md;
+	}
+	@media (min-width: $screen-lg-min) {
+		width: $container-lg;
+	}
+
 }
 .error {
 	color:red !important;
@@ -59,4 +70,14 @@ section.everythingcentered {
 }
 .show {
 	display:block;
+}
+hr.divider {
+	margin:80px 0;
+	height:1px;
+	background-color:#eee;
+	@include make-row();
+}
+
+.inner {
+	@include testdiv();	
 }

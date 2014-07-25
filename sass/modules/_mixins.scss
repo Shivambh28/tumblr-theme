@@ -15,3 +15,41 @@
 		 font-family: name;
 	}
 }
+
+@mixin testdiv($height : 100px, $color : #eee, $line-height: 3.6em) {
+	height: $height;
+	background-color: $color;
+	border-radius: 5px;
+	border:1px solid #ccc;
+	line-height:$line-height;
+	font-size:25px; 
+	font-weight:bold;
+	color:#666;
+	text-align:center;
+	width:100%;
+}
+
+@mixin twoCol($value) {
+	@if $value == "leftLarger" {
+		.left {
+			@include make-sm-column(9);
+		}
+		.right {
+			@include make-sm-column(3);
+		}	
+	} @else if $value == "rightLarger" {
+		.left {
+			@include make-sm-column(3);
+		}
+		.right {
+			@include make-sm-column(9);
+		}
+	} @else {
+		.left {
+			@include make-sm-column(6);
+		}
+		.right {
+			@include make-sm-column(6);
+		}
+	}
+}

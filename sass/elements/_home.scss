@@ -1,0 +1,31 @@
+.corousal {
+	width:100%;
+	@include testdiv(370px, #333, 13.6em);
+
+}
+
+.site-body {
+	.threecol {
+		margin:60px 0;
+		.col {
+			@include make-sm-column(4);
+			.inner {
+				@include testdiv(250px, #eee, 9.7em);
+			}
+			
+		}
+	}
+	.rightLarger {
+		@include twoCol(rightLarger);
+		.inner {
+			@include testdiv(370px, #eee, 13.6em);
+		}
+	}
+	.leftLarger {
+		@include twoCol(leftLarger);
+		.inner {
+			@include testdiv(370px, #eee, 13.6em);
+		}
+	}
+}
+
