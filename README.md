@@ -1,4 +1,11 @@
 tumblr-theme
 ============
 
-General Tumblr Theme Demp
+Technologies Used
+
+- Bootstrap 3
+- Sass
+- HTML5
+- Tumblr
+- jQuery
+- AngularJS
