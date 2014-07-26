@@ -2947,10 +2947,6 @@ a {
   a:hover {
     text-decoration: underline; }
 
-.mainContainer {
-  width: 100%;
-  overflow: hidden; }
-
 * {
   margin: 0;
   padding: 0;
