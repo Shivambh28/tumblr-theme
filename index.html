@@ -21,74 +21,27 @@
 	   </script>
 	<![endif]-->
 </head>
-<body>
-	<div class="container">
+<body >
+	<div class="mainContainer" ng-app="app">
+		<header ng-include="'pages/header.html'"></header>
 		
-		<div class="site-header">
-			<div class="site-logo">
-				<div class="inner">LOGO</div>
-			</div>
-			<div class="site-nav">
-				<div class="inner">NAV</div>
-			</div>
+		
+
+		<div class="site-body" ng-view>
+
+			
+		
 		</div>
+		
 
-	</div><!-- end container -->
-	
-	<div class="corousal">
-		COROUSAL
-	</div><!-- end corousal -->
+		<footer ng-include="'pages/footer.html'"></footer>
 
-	<div class="container site-body">
-
-		<div class="row threecol">
-			<div class="col">
-				<div class="inner">COLUMN</div>
-			</div>
-			<div class="col">
-				<div class="inner">COLUMN</div>
-			</div>
-			<div class="col">
-				<div class="inner">COLUMN</div>
-			</div>
-		</div><!-- end row -->
-
-		<hr class="divider"></hr>
-
-		<div class="row twocol rightLarger">
-			<div class="left"><div class="inner">COl</div></div>
-			<div class="right"><div class="inner">COl</div></div>
-		</div>
-
-		<hr class="divider"></hr>	
-
-		<div class="row twocol leftLarger">
-			<div class="left"><div class="inner">COl</div></div>
-			<div class="right"><div class="inner">COl</div></div>
-		</div>
-
-		<hr class="divider"></hr>	
-	
 	</div>
 	
-
-	<div class="site-footer">
-		<div class="container">
-			<div class="row">
-				<div class="copy">
-					<div class="inner">FOOTER COPY</div>
-				</div>
-				<div class="logo">
-					<div class="inner">FOOTER LOGO</div>
-				</div>
-			</div><!-- end row -->
-
-
-		</div>
-	</div>
 
 	<!-- JS INCLUDES -->
-	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-ui-router.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

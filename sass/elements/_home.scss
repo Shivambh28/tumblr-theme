@@ -1,10 +1,25 @@
 .corousal {
 	width:100%;
-	@include testdiv(370px, #333, 13.6em);
+	background:$red;
+	text-align:center;
+	padding:100px 0;
+	clear:both;
+	color:#fff;
+	h1 {
+		margin:0 0 20px;
+		color:inherit;
+		text-transform: uppercase;
+	}
+	.btn {
+		border:1px solid #fff;
+		background:$red;
+		margin-top: 20px;
+	}
 
 }
 
 .site-body {
+	padding:100px 0;
 	.threecol {
 		margin:60px 0;
 		.col {
@@ -13,6 +28,25 @@
 				@include testdiv(250px, #eee, 9.7em);
 			}
 			
+		}
+		.circle {
+			width: 100px;
+			height: 100px;
+			background:#fff;
+			border-radius:50%;
+			margin:0 auto;
+			border-top:30px solid #C23A29;
+			border-bottom:30px solid #ccc;
+			border-right:30px solid #F7C935;
+			border-left:30px solid #74B45C;
+
+		}
+		p {
+			font-size: 16px;
+			text-align: center;
+			padding:0;
+			margin:20px 0 0;
+
 		}
 	}
 	.rightLarger {

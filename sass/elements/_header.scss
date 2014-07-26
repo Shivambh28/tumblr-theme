@@ -1,10 +1,48 @@
 .site-header {
+	padding:30px;
+	background:$dark;
+	width:100%;
+	float: left;
+	clear:both;
+	margin:0 0 !important; 
 	@include make-row();
-	margin:30px 0;
 	.site-logo {
 		@include make-sm-column(3);
+		
+		.logo {
+			background: none repeat scroll 0 0 #333;
+		    border-radius: 50px;
+		    box-shadow: 0 0 0 10px white;
+		    float: left;
+		    height: 20px;
+		    position: relative;
+		    top: 13px;
+		    width: 20px;
+		}
+		.lead {
+			display: inline-block;
+			color: #fff;
+			margin:7px 0 12px 29px;
+			padding:0;
+		}
 	}
 	.site-nav {
 		@include make-sm-column(9);
+		color: #fff;
+		
+		ul {
+			float: right;
+			margin-top: 13px;
+			li {
+				display: inline-block;
+				margin-right:20px;
+				a {
+					color: inherit;
+					font-weight: 100;
+				}
+
+			}
+		}
 	}
+	
 }
